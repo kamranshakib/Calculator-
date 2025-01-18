@@ -107,6 +107,9 @@ button:hover{
         .calculator{
             width:400px;
         }
+    #text{
+        width:100%;
+    }
     }
     
 
