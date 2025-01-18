@@ -44,6 +44,7 @@ input::placeholder{
 }
 
 .calculator{
+    
     border: 1px solid rgba(0, 0, 0, 0.657);
     padding: 20px;
     box-shadow: 0px 3px 15px;
@@ -102,8 +103,9 @@ button:hover{
             border-radius: 200%;
             
         }
+    
         .calculator{
-            margin-top: 165px;
+            width:400px;
         }
     }
     
