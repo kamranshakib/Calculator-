@@ -136,17 +136,17 @@ button:hover{
             width: 320px;
         }
         .main{
+           
             width: 100%;
         }
         .calculator{
-            margin-top: 160px;
-            margin-left: 10px;
+            margin-top: 50px;
             width: 100%;
         }
             button{
                 width: 20px;
-                height:20px
-                font-size: 20px;
+                height:20px;
+                font-size: 15px;
                 border-radius: 100000px;
 
             }    
