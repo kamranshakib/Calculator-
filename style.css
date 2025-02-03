@@ -111,15 +111,14 @@ button:hover{
    
 @media ( max-width:396px) {
 
-    input{
-        width: 320px;
-    }
+   
     .calculator{
-        margin-top: 170px;
-        margin-left: 10px;
+        margin-top: 0px;
         width:100%
+    }
         button{
             width: 25px;
+            height:25px;
             font-size: 25px;
             border-radius: 100000px;
 
@@ -128,7 +127,7 @@ button:hover{
       
         
         
-    }
+
 
     @media (max-width:390px) 
     {
