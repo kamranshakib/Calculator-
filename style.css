@@ -117,9 +117,9 @@ button:hover{
     .calculator{
         margin-top: 170px;
         margin-left: 10px;
-        width: 360px;
+        width:100%
         button{
-            width: 30px;
+            width: 25px;
             font-size: 25px;
             border-radius: 100000px;
 
