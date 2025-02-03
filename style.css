@@ -113,16 +113,34 @@ button:hover{
 
    
     .calculator{
-        margin-top: 0px;
+        margin-top: -20px;
         width:100%
     }
         button{
             width: 25px;
             height:25px;
             font-size: 25px;
+            margin: 0 0 0 0 ;
             border-radius: 100000px;
 
         }    
+
+
+    .equalBtn{
+    background-color: rgb(185, 142, 0);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.operator{
+    color: green;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.operatorSmall{
+    font-size: 15px;
+}
 }
       
         
