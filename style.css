@@ -137,10 +137,12 @@ button:hover{
         }
         .main{
             width: 100%;
+        }
         .calculator{
             margin-top: 160px;
             margin-left: 10px;
             width: 100%;
+        }
             button{
                 width: 20px;
                 height:20px
