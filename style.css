@@ -61,6 +61,7 @@ button{
     cursor: pointer;
     font-size: 30px;
     text-align: center;
+    outline: none;
     /* font-weight: 900; */
    
 }
@@ -111,61 +112,37 @@ button:hover{
    
 @media ( max-width:396px) {
 
-   
+    button{
+    
+        font-size: 20px;
+        font-weight: 700;
+        width: 50px;
+        height: 50px;
+        border-radius: 200%;
+        
+    }
+    #text{
+        width: 50%;
+    }
     .calculator{
-        margin-top: -20px;
-        width:100%
-    }
-        button{
-            width: 25px;
-            height:25px;
-            font-size: 25px;
-            margin: 0 0 0 0 ;
-            border-radius: 100000px;
-
-        }    
-
-
-    .equalBtn{
-    background-color: rgb(185, 142, 0);
-    font-size: 15px;
-    font-weight: 500;
-}
-
-.operator{
-    color: green;
-    font-size: 15px;
-    font-weight: 500;
-}
-
-.operatorSmall{
-    font-size: 15px;
-}
-}
-      
+        width:100%;
         
-        
-
-
-    @media (max-width:390px) 
-    {
-        input{
-            width: 320px;
-        }
-        .main{
-           
-            width: 100%;
-        }
-        .calculator{
-            margin-top: 50px;
-            width: 100%;
-        }
-            button{
-                width: 20px;
-                height:20px;
-                font-size: 15px;
-                border-radius: 100000px;
-
-            }    
     }
+    .calculator div{
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-around;
+        
+    }
+    .calculator div button{
+        margin: 10px 0 0 0 ;
+        
+    }
+#text{
+    width:100%;
+    margin-right: 20px;
 }
+}
+
+
